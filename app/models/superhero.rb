@@ -3,8 +3,9 @@ class Superhero
   @@all = []
 
   def initialize(args)
-    binding.pry
     @name = args[:super_hero_name]
+    @power = args[:super_hero_power]
+    @bio = args[:super_hero_bio]
   end
 
   def self.all

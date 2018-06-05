@@ -2,7 +2,7 @@ class Superhero
   attr_accessor :name, :power, :bio
   @@all = []
 
-  def initialize
+  def initialize(args)
   end
 
   def self.all

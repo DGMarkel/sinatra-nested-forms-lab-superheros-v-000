@@ -4,7 +4,7 @@ class Superhero
 
   def initialize(args)
     binding.pry
-    @name = args.super_hero_name
+    @name = args[:super_hero_name]
   end
 
   def self.all

@@ -3,6 +3,7 @@ class Superhero
   @@all = []
 
   def initialize(args)
+    binding.pry
     @name = args.super_hero_name
   end
 
